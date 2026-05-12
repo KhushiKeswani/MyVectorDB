@@ -79,12 +79,7 @@ By exploring this project, you will gain understanding of:
 
 ## Contributing
 
-Contributions are welcome and encouraged. If you have suggestions for improvements, optimizations, or additional features, please:
-
-1. Open an issue to discuss the proposed changes
-2. Submit a pull request with your implementation
-3. Include documentation and examples for new features
-
+Contributions are welcome and encouraged.
 
 ## License
 
