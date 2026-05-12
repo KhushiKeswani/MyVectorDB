@@ -22,8 +22,6 @@ This project demonstrates a complete vector database pipeline, including:
 - Multiple distance metrics (Euclidean, Cosine, Manhattan)
 - Scalable indexing strategies for high-dimensional data
 - Comprehensive documentation and usage examples
-- Interactive Jupyter notebooks demonstrating core concepts
-- Performance benchmarking and analysis tools
 
 ## Architecture and Implementation
 
@@ -32,7 +30,6 @@ The project is structured around several core components:
 1. **Vector Management**: Handling storage and organization of multi-dimensional vectors
 2. **Indexing Strategies**: Implementation of spatial indexing for rapid similarity queries
 3. **Search Algorithms**: Optimization techniques for nearest neighbor identification
-4. **Utilities**: Helper functions for data preprocessing and evaluation metrics
 
 Each component is thoroughly documented with explanations of the underlying mathematics and algorithmic complexity.
 
