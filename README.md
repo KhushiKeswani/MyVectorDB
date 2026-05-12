@@ -25,6 +25,11 @@ This project demonstrates a complete vector database pipeline, including:
 
 ## Architecture and Implementation
 
+#Architecture Diagram:
+
+<img width="1200" height="340" alt="image" src="https://github.com/user-attachments/assets/a389b09a-8ccf-4d82-b948-4309cd6c6b03" />
+
+
 The project is structured around several core components:
 
 1. **Vector Management**: Handling storage and organization of multi-dimensional vectors
