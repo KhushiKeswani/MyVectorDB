@@ -1,6 +1,6 @@
 # MyVectorDB
 
-A comprehensive vector database implementation demonstrating advanced data structures, indexing techniques, and efficient similarity search algorithms. This project showcases practical applications of vector embeddings and nearest neighbor search in modern machine learning systems.
+A comprehensive vector database implementation demonstrating advanced data structures, indexing techniques, and efficient similarity search algorithms. This project showcases practical applications of vector embeddings and vector search in modern machine learning systems.
 
 ## Project Overview
 
@@ -41,36 +41,8 @@ Each component is thoroughly documented with explanations of the underlying math
 - Python: Core implementation language
 - NumPy: Efficient numerical computations
 - Jupyter Notebooks: Interactive documentation and experimentation
-- Pandas: Data manipulation and analysis
-- Scikit-learn: Machine learning utilities and evaluation metrics
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.7 or higher
-- Jupyter Notebook or JupyterLab
-- Required packages: NumPy, Pandas, Scikit-learn
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/KhushiKeswani/MyVectorDB.git
-   cd MyVectorDB
-   ```
-
-2. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Launch Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-
-4. Open the notebook files to explore the implementation and run examples
+- FAISS: Provides faster search and indexing.
+- Transformer: Provides efficient embedding of data and reranking
 
 ## Usage
 
@@ -90,27 +62,18 @@ By exploring this project, you will gain understanding of:
 
 - How vector databases store and organize high-dimensional data
 - The mathematical foundations of similarity metrics and distance calculations
-- Trade-offs between search accuracy and computational efficiency
 - Real-world applications of vector databases in modern machine learning
 - Best practices for optimizing similarity search at scale
 
 ## Future Enhancements
 
 - Integration with popular embedding models (BERT, GPT embeddings)
-- Implementation of advanced indexing techniques (LSH, Hierarchical Navigable Small World)
+- Adding Metadata and Metadata filtering on user queries
 - Distributed processing capabilities for multi-machine deployments
 - Support for hybrid search combining vector and keyword search
 - Comprehensive performance benchmarks against industry-standard databases
 - Web interface for interactive exploration and querying
 
-## Performance Considerations
-
-The project includes detailed analysis of:
-
-- Time complexity for different indexing strategies
-- Space efficiency and memory requirements
-- Scalability characteristics with increasing dataset size
-- Accuracy versus speed trade-offs in approximate search methods
 
 ## Contributing
 
@@ -120,9 +83,6 @@ Contributions are welcome and encouraged. If you have suggestions for improvemen
 2. Submit a pull request with your implementation
 3. Include documentation and examples for new features
 
-## Acknowledgements
-
-This project builds upon fundamental concepts in computational geometry, machine learning, and database systems. Special thanks to the open-source community for the excellent tools and libraries that made this implementation possible.
 
 ## License
 
